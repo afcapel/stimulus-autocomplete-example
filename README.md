@@ -1,6 +1,6 @@
 # Stimulus Autocomplete example app
 
-This is a minimal example for the stimulus-autocomplete library.
+This is a minimal example for the [stimulus-autocomplete](https://github.com/afcapel/stimulus-autocomplete) library.
 
 ![Demo](https://media.giphy.com/media/5dYbYLVX4fSbbdyN84/giphy.gif)
 
