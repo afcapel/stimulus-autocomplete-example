@@ -4220,10 +4220,10 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-stimulus-autocomplete@^1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/stimulus-autocomplete/-/stimulus-autocomplete-1.4.2.tgz#3dba03a03d82f1bba89974b8748b606047592412"
-  integrity sha512-NTh0yXKdRahl/2C/BN1j/4xJUzziMleiQmRtOpLic85T3AAuj5sY3ashU0YP8TJ8a6Lxn7vk/8FV65281dqyfw==
+stimulus-autocomplete@^2.0.0-rc.1:
+  version "2.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/stimulus-autocomplete/-/stimulus-autocomplete-2.0.0-rc.1.tgz#18de43a53c4e6af18de059b65416c744ecde210a"
+  integrity sha512-83jQRcuPDbpfcQFw7bA1oIInTl7bV+Gvz9Jc1EGcR9wNC34FLGRTL4SXA5N+oNvDY/5cz2/I7MCXl+uLd/OmKA==
   dependencies:
     lodash.debounce "^4.0.8"
 
