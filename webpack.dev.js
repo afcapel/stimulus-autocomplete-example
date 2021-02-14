@@ -18,10 +18,16 @@ module.exports = {
       filename: "index.html"
     }),
     new HtmlWebpackPlugin({
-      template: "./results.html",
+      template: "./results-plain-text.html",
       inject: true,
       chunks: ["results"],
-      filename: "results.html"
+      filename: "results-plain-text.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./results-complex.html",
+      inject: true,
+      chunks: ["results"],
+      filename: "results-complex.html"
     })
   ],
 

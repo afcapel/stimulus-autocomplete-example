@@ -19,8 +19,17 @@
     <h1 class="container my-5">Stimulus autocomplete example</h1>
 
     <div class="form-group">
-      <label for="exampleInputEmail1">Bird</label>
-      <div data-controller="autocomplete" data-autocomplete-url-value="/results.html">
+      <label for="exampleInputEmail1">Plain text bird names</label>
+      <div data-controller="autocomplete" data-autocomplete-url-value="/results-plain-text.html">
+        <input type="text" class="form-control" data-autocomplete-target="input" placeholder="search a bird"/>
+        <input type="hidden" name="bird_id" data-autocomplete-target="hidden"/>
+        <ul data-autocomplete-target="results" class="list-group"></ul>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Complex results for bird names</label>
+      <div data-controller="autocomplete" data-autocomplete-url-value="/results-complex.html">
         <input type="text" class="form-control" data-autocomplete-target="input" placeholder="search a bird"/>
         <input type="hidden" name="bird_id" data-autocomplete-target="hidden"/>
         <ul data-autocomplete-target="results" class="list-group"></ul>
